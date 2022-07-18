@@ -1,0 +1,17 @@
+
+.card::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index : 0;
+    opacity: 0;
+    transition: all 400ms ease ;
+   
+}
+
+.card:hover::before{
+    opacity: 1;
+    
+}
